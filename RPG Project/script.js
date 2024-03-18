@@ -24,8 +24,11 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function goStore() {
+  button1.onclick = buyHealth();
   button1.innerText = 'Buy 10 health (10 gold)';
+  button2.onclick = buyWeapon();
   button2.innerText = 'Buy weapon (30 gold)';
+  button3.onclick = goTown();
   button3.innerText = 'Go to town square';
 }
 function goCave() {
