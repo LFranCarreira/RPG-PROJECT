@@ -16,6 +16,23 @@ const goldText = document.querySelector('#goldText');
 const monsterStats = document.querySelector('#monsterStats');
 const monsterName = document.querySelector('#monsterName');
 const monsterHealthText = document.querySelector('#monsterHealth');
+const monsters = [
+  {
+    name: 'slime',
+    level: 2,
+    health: 15,
+  },
+  {
+    name: 'fanged beast',
+    level: 8,
+    health: 60,
+  },
+  {
+    name: 'dragon',
+    level: 20,
+    health: 300,
+  },
+];
 const weapons = [
   {
     name: 'stick',
