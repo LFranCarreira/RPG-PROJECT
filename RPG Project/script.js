@@ -153,3 +153,4 @@ function sellWeapon() {
 
 function fightSlime() {}
 function fightBeast() {}
+function goFight() {}
